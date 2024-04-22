@@ -1,0 +1,202 @@
+footer{
+    position: relative;
+    width: 100%;
+    max-width: 9990px;
+    margin: auto;
+    height: auto;
+    background-color: #000000;
+    color: #fff;
+}
+.footergrid{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footerimglogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding: 0; 
+}
+.footerimglogo img{
+    display: block;
+    margin: auto;
+    margin-top: -20px;
+    width: 248px;
+}
+.footerimglogo ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footerimglogo ul li img{
+    max-width: 50px;
+}
+.footermenu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: auto;
+}
+.footernav{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    white-space: nowrap;
+    margin-right: 30px;
+}
+.footernav ul, .address ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175px;
+}
+.footernav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+.footernav ul li a:hover {
+    color: #FFDE2E;
+    transition: 0.5s;
+}
+.adress{
+    width: 100%;
+    white-space: nowrap;
+}
+.adress ul li {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+.rights{
+    position: relative;
+    height: 120px;
+    width: 100%;
+    max-width: 9990px;
+    margin: auto;
+    padding: 0 0 50px 0;
+    background-color: #000000;
+    align-items: center;
+    text-align: center;    
+}
+.rights p{
+    color: #fff;
+    border-top: 1px solid #fff;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 50px;
+}
+.footerimglogo2{display:none;}
+@media screen and (max-width: 870px) {
+    footer{
+        position: relative;
+        width: 100%;
+        max-width: 2990px;
+        margin: auto;
+    }
+    .footergrid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 490px;
+        margin: auto;
+        justify-content: space-between;
+        padding: 10 0;
+        height: 820px;
+    }
+    .footermenu ul li a{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+    }
+    .footermenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 210px;
+        text-align: center;
+    }
+    .footermenu ul{
+        height: auto;
+    }
+    .adress{
+        display: flex;
+        height: 100%;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+    }
+    .adress p{
+        justify-content: center;
+        margin-top: 0px;
+        margin: auto;
+    }
+    .footerimglogo{
+        display: flex;
+        margin-left: 0;
+        margin-top: 0px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        padding: 36px 0; 
+    }
+    .footerimglogo img{
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        width: 180px;
+    }
+    .footersocials{
+        margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+        text-align: center;
+    }
+    .footersocials{
+        justify-content: center;
+    }
+    .footersocials p{
+        text-align: center;
+        margin: 0;
+    }
+    .footersocials ul {
+        list-style: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 5px;
+        padding-top: 8px;
+        margin-left: 19px;
+    }
+    .footersocials ul a{
+        text-decoration: none;
+    }
+    .rights p{
+        font-size: 12px;
+    }
+}
