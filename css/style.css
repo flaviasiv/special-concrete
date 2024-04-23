@@ -14,7 +14,7 @@ main{
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 30px; 
+    scroll-padding-top: 10px; 
 }
 button{
     font-family: 'Urbanist', sans-serif;
@@ -92,6 +92,12 @@ button{
     text-decoration: none;
 }
 @media screen and (max-width:900px) {
+    .videocontainer{
+        height:600px;
+    }
+    .videoimg {
+        height: 600px;
+    }
     .videop{
         padding: 0 20px 0 20px;
         top: 50%;
@@ -99,7 +105,8 @@ button{
         transform: translate(-50%, -60%);
     }
     .videop p{
-        width: 460px;
+        width: 100%;
+        max-width: 460px;
         font-size: 30px;
     }
     .videop small{
@@ -270,7 +277,6 @@ swiper-container {
 .aboutimg img{
     width: 100%;
     max-width: 377px;
-    
 }
 .aboutinfos{
     color: #fff;
@@ -328,17 +334,32 @@ swiper-container {
     color: #fff;
 }
 @media screen and (max-width:900px) {
-    .servicesinfo{
+    .about{
+        flex-direction: column;
+        justify-content: center;
         padding: 0 20px;
     }
-    .servicesinfo h2{
+    .aboutimg img{
+        margin-bottom: 36px;
+    }
+    .aboutinfos h2{
         font-size: 20px;
     }
-    .servicesinfo h6{
-        font-size: 28px;        
+    .aboutinfos h6{
+        font-size: 28px;
     }
-    .servicesinfo p{
+    .aboutinfos p{
         font-size: 14px;
+    }
+    .aboutgrid{
+        flex-direction: column;
+        gap: 36px;
+    }
+    .preferencecard img{
+        max-width: 82px;
+    }
+    .preferencecard h5{
+        font-size: 20px;
     }
 }
 .gallerycontainer{
@@ -373,9 +394,8 @@ swiper-container {
     line-height: 150%;
 }
 /* 
-    LIGHTBOX GALERIA !!!
+    POPUP GALERIA !!!
  */
- 
 .mySwiper4{
     display: block;
     width: 100%;
@@ -400,7 +420,6 @@ swiper-container {
     display: flex;
     overflow: hidden;
 }
-
 .imgsmall{
     max-width: 250px;
     margin: 20px 0;
@@ -430,6 +449,21 @@ swiper-container {
     border-radius: 30px;
     font-size: 16px;
     font-weight: 600;
+}
+@media screen and (max-width:900px) {
+    .gallerycontainer{
+        padding: 80px 20px 40px 20px;
+    }
+    .galleryinfos h2{
+        font-size: 20px;
+    }
+    .galleryinfos h6{
+        font-size: 28px;
+    }
+    .galleryinfos small{
+        font-size: 14px;
+    }
+
 }
 /* IG CONTAINER */
 .ig-embed{
@@ -461,8 +495,15 @@ swiper-container {
 }
 @media screen and (max-width:980px) {
     .ig-embed iframe{
-        width:400px; 
+        width:500px; 
         height:450px;
+    }    
+}
+@media screen and (max-width:580px) {
+    .ig-embed iframe{
+        width:100%;
+        max-width: 400px; 
+        height: 330px;
     }    
 }
 .reviewcontainer{
@@ -534,7 +575,6 @@ swiper-container {
     padding-bottom: 40px;
 }
 .swiper3 img{
-    border-radius: 39px;
     height: 100%;
     width: 100%;
 }
@@ -561,6 +601,43 @@ swiper-container {
 }
 .buttonreview a svg{
     margin-right: 10px;
+}
+@media screen and (max-width:980px) {
+    .reviewp{
+        max-width: 449px;
+        padding: 0 50px 60px 50px;
+    }
+    .reviewp h2{
+        font-size: 20px;
+    }
+    .reviewp h6{
+        font-size: 28px;
+    }
+    .reviewp img{
+        width: 259px;
+        top: 65px;
+        left: 145px;
+    }
+    .reviewp small{
+        font-size: 14px;
+    }
+    .swiper3{
+        gap: 12px;
+        width: 350px;
+    }
+    .swiper3 img{
+        max-width: 350px;
+    }
+}
+@media screen and (max-width:680px) {
+    .reviewp{
+        max-width: 400px;
+    }
+    .reviewp img{
+        width: 249px;
+        top: 67px;
+        left: 115px;
+    }
 }
 .preferencecontainer{
     position:relative;
@@ -601,6 +678,23 @@ swiper-container {
     max-width: 830px;
     margin: auto;
     margin-top: 37px;
+}
+@media screen and (max-width:980px) {
+    .preferencecontainer{
+        padding: 183px 20px 114px;
+    }
+    .preference h2{
+        font-size: 22px;
+    }
+    .preference h3{
+        font-size: 30px;
+    }
+    .preference p{
+        font-size: 16px;
+    }
+    .preference img{
+        width: 259px;
+    }
 }
 .formgrid{
     position:relative;
@@ -692,6 +786,17 @@ form button:hover{
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;     /* oranges! yey */
 }
+@media screen and (max-width:980px) {
+    .formp h2{
+        font-size: 35px;
+    }
+    .formp p{
+        font-size: 14px;
+    }
+    .formgrid{
+    padding: 130px 20px;
+    }
+}
 .mapscontainer{
     position:relative;
     display: flex;
@@ -739,4 +844,28 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%;
+}
+@media screen and (max-width:800px) {
+    .mapscontainer{
+        padding: 48px 20px 86px;
+    }
+    .mapsfooter{
+        flex-direction: column;
+    }
+    .mapsfooter img{
+        width: 100%;
+        margin: auto;
+    }
+    .mapsfooter .mapinfo ul{
+        text-align: center;
+    }
+    .mapinfo ul li h2{
+        font-size: 20px;
+    }
+    .mapinfo ul li a{
+        font-size: 14px;
+    }
+    .mapinfo ul li p{
+    font-size: 14px;
+    }
 }
