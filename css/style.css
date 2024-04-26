@@ -404,7 +404,7 @@ swiper-container {
     overflow: hidden;
     scroll-behavior: smooth;
     cursor: grab;
-    height: 450px;
+    height: 480px;
 }
 .swiper4 {
   display: flex;
@@ -813,6 +813,10 @@ form button:hover{
     margin: auto;
     justify-content: space-between;
 }
+.mapscontainer iframe{
+    max-width: 500px;
+    max-height: 350px;
+}
 .mapsfooter .mapinfo ul{
     display: flex;
     flex-direction: column;
@@ -851,7 +855,8 @@ line-height: 150%;
     .mapsfooter{
         flex-direction: column;
     }
-    .mapsfooter img{
+    .mapscontainer iframe{
+        display: block;
         width: 100%;
         margin: auto;
     }
