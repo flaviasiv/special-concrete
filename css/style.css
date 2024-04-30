@@ -14,7 +14,7 @@ main{
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 10px; 
+    scroll-padding-top: 50px; 
 }
 button{
     font-family: 'Urbanist', sans-serif;
