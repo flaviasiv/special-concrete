@@ -490,7 +490,7 @@ swiper-container {
 }
 .ig-embed iframe{
     width:900px; 
-    height:790px;
+    height:800px;
 }
 @media screen and (max-width:980px) {
     .ig-embed iframe{
