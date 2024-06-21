@@ -1,6 +1,6 @@
 ## Portifólio de Special Concrete
 
-<div align="center"><img src="https://i.ibb.co/3cF8XkS/Captura-de-tela-2024-06-05-164141.png" alt="PrintScreen da Home da página da Special Concrete" height="100%"></div>
+<div align="center"><img src="https://i.ibb.co/bK37jdT/gif-special-concrete.gif" alt="PrintScreen da Home da página da Special Concrete" height="100%"></div>
 <br><br>
 <p align="center">
 <img src="http://img.shields.io/badge/Status-CONCLU%C3%8DDO-green?logoColor=%23333&labelColor=%23333"/>
