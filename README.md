@@ -28,7 +28,7 @@
 
 
 ## Onde os usuários podem encontrar ajuda sobre seu projeto; :paw_prints:
-<p>Para qualquer ajuda, esclarecimento ou interesse em jobs pode me contatar por <a href="github.com/flaviasiv" Target="_blank">aqui mesmo</a>, ou me mandar uma mensagem no <a href="https://www.linkedin.com/in/flaviasigoli/" Target="_blank">LinkedIn</a>! </p>
+<p>Para qualquer ajuda, esclarecimento ou interesse em jobs pode me contatar por <a href="https://github.com/flaviasiv" Target="_blank">aqui mesmo</a>, ou me mandar uma mensagem no <a href="https://www.linkedin.com/in/flaviasigoli/" Target="_blank">LinkedIn</a>! </p>
 
 ## Autores do projeto :construction_worker:
 Web developer: Flavia Sigoli <br>
