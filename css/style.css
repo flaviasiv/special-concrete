@@ -280,7 +280,7 @@ swiper-container {
     background-color: #fff;
     color: #000;
 }
-.cardblack .btnservice{
+.sercardinfo .btnservice:hover{
     background-color: #FFC824;
 }
 @media screen and (max-width:900px) {
@@ -1003,24 +1003,6 @@ line-height: 150%;
 .callpopup a{
     color: #000;
 }
-/*.content1 .popupimg{
-    object-position: 0px 50%;
-}
-.content2 .popupimg{
-    object-position: 0px 50%;
-}
-.content3 .popupimg{
-    object-position: 0px 70%;
-}
-.content4 .popupimg{
-    object-position: 0px 60%;
-}
- .content5 .popupimg{
-    object-position: 0px 50%;
-} 
-.content6 .popupimg{
-    object-position: 0px 50%;
-}*/
 .popup .content h1{
     font-size: 56px;
     font-weight: 600;
@@ -1054,13 +1036,4 @@ line-height: 150%;
 a{
     text-decoration: none;
     color: inherit;
-}
-.btnservice:hover, form button:hover{
-background-color: #46E5D8;
-}
-.btn1:hover{
-    background: #46E5D8;
-}
-.callpopup:hover{
-    background: #FFF;
 }
