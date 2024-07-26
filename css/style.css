@@ -62,7 +62,6 @@ button{
     margin: auto;
     text-align: center;
     font-size: 40px;
-    font-style: normal;
     font-weight: 600;
     padding-top: 40px;
 }
@@ -70,13 +69,11 @@ button{
     margin: auto;
     margin-top: 10px;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
 }
 .videop button{    
     color: #000;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 150%;
     align-items: center;
@@ -191,39 +188,81 @@ swiper-container {
     line-height: 150%;
     
 }
-.mySwiper2{
-    display: block;
-    position:relative;
-    width: 100%;
-    max-width: 9999px;
-    margin: auto;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    cursor: grab;
-    height: auto;
+.mySwiper2 {
+  width: 100%;
+  height: 520px;
+  max-width: 9999px;
+  cursor: grab;
+  margin: 0 auto !important;
 }
 .swiper2 {
+  width: 100%;
+  max-width: 310px;
+  height: 100%;
+  max-height: 470px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 24px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+}
+.sercardinfo{
+    position: absolute;
+    bottom: 0;
   display: flex;
-  text-align: center;
-    width: auto;
-    gap: 12px;
-    width: 282px;
-    height: 560px;
-    padding-bottom: 50px;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  padding: 24px;
 }
-.swiper2 img{
-    width: 100%;
+.swiper2:hover {
+  box-shadow: 8px 8px 16px #333; 
+  transition: 0.2s ease-in;
 }
-.swiper2 .cardinfos{
-    padding: 16px;
-
+.sercardinfo h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
 }
-.cardinfos p{
-    font-size: 12px;
-    line-height: 120%;
-    font-family: "Roboto", sans-serif;
+.sercardinfo p{
+    font-size: 16px;
     font-weight: 400;
-    margin-top: 10px;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+.sercardinfo .btnservice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 190px;
+    list-style: none;
+    color: #000;
+    border-radius: 100px;
+    padding: 16px 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 80%;
+    text-decoration: none;
+    gap: 5px;
+    background-color: #E7E7E7;
+    border: 1px solid #6B6B6B;
+}
+.btncardserv svg{
+    fill: #000;
+}
+.swiper2 img {
+  position: absolute;
+  width: 100% !important;
+  margin: auto;
+  max-height: 171px;
+  object-fit: cover !important;
+  top: 0;
+  margin-bottom: 0;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
 }
 .cardblack{
     background-color: #000;
@@ -237,9 +276,12 @@ swiper-container {
     background-color: #C7C7C7;
     color: #000;
 }
-.carddarkgrey{
-    background-color: #4D4D4D;
-    color: #fff;
+.carddarkwhite{
+    background-color: #fff;
+    color: #000;
+}
+.cardblack .btnservice{
+    background-color: #FFC824;
 }
 @media screen and (max-width:900px) {
     .servicesinfo{
@@ -253,6 +295,14 @@ swiper-container {
     }
     .servicesinfo p{
         font-size: 14px;
+    }
+    .mySwiper2 {
+      height: 580px;
+    }
+    .swiper2 {
+      max-width: 900px;
+      margin-left: 0;
+      margin-top: 50px;
     }
 }
 .aboutcontainer{
@@ -327,7 +377,6 @@ swiper-container {
 .preferencecard h5{
     text-align: center;
     font-size: 22px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%;
     margin-top: 24px;
@@ -829,7 +878,6 @@ form button:hover{
 .mapinfo ul li h2{
     margin-bottom: 8px;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 100%;
 }
@@ -838,7 +886,6 @@ form button:hover{
     color: #000;
     text-decoration: none;
     font-size: 16px;
-    font-style: normal;
     font-weight: 800;
     line-height: 150%;
 }
@@ -872,4 +919,148 @@ line-height: 150%;
     .mapinfo ul li p{
     font-size: 14px;
     }
+}
+.popuptest{
+    position: relative;
+    width: 100%;
+    max-width: 9999px;
+    margin: auto;    
+}
+.popup1{
+    background: url(../assets/1.jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.popup2{
+    background: url(../assets/2.jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.popup3{
+    background: url(../assets/3.jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.popup4{
+    background: url(../assets/4.jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.popup5{
+    background: url(../assets/5.jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.popup6{
+    background: url(../assets/6.jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.popup7{
+    background: url(../assets/7.jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.popuptest::after {
+    content: '';
+    inset: 0;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 2.84%, #000 100%) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    bottom: -1px;
+    position: absolute;
+}
+.popupgrid{
+    display: flex;
+    width: 100%;
+    max-width: 996px;
+    margin: auto;
+    justify-content: center;
+}
+.popup .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    gap: 32px;
+    padding: 200px 0 32px 0;
+    color: #fff;
+}
+.popupimg{
+    display: flex;
+    width: 100%;
+    max-width: 1090px;
+    margin: auto;
+    object-fit: cover;
+    padding: 32px 0 100px;
+}
+.callpopup{
+    background-color: #FFDE2E;
+}
+.callpopup a{
+    color: #000;
+}
+/*.content1 .popupimg{
+    object-position: 0px 50%;
+}
+.content2 .popupimg{
+    object-position: 0px 50%;
+}
+.content3 .popupimg{
+    object-position: 0px 70%;
+}
+.content4 .popupimg{
+    object-position: 0px 60%;
+}
+ .content5 .popupimg{
+    object-position: 0px 50%;
+} 
+.content6 .popupimg{
+    object-position: 0px 50%;
+}*/
+.popup .content h1{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.popup .content p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    max-width: 510px;
+    margin: auto;
+}
+.popupimgm{display: none;}
+@media screen and (max-width:800px) {
+    .popuptest{
+    padding-bottom: 100px;
+    }
+    .popupgrid{
+        padding: 0px 10px 0;
+    }
+    .popupimg{display: none;}
+    .popupimgm{
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btnservice:hover, form button:hover{
+background-color: #46E5D8;
+}
+.btn1:hover{
+    background: #46E5D8;
+}
+.callpopup:hover{
+    background: #FFF;
 }
