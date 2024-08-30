@@ -300,3 +300,15 @@ position: absolute;
   align-items: end;
   }   
 }
+@media only screen and (max-width: 390px) {
+  .callm{
+    width: 150px;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .callm a{
+    width: 150px;
+  }
+
+}
