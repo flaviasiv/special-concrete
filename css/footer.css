@@ -71,7 +71,7 @@ footer{
 }
 .footernav ul li a:hover {
     color: #FFDE2E;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 .address{
     width: 100%;

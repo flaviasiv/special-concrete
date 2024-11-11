@@ -84,12 +84,12 @@ header {
 }
 .menu-linksbtn a:hover{
     color: #FFDE2E;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 .menusocial{
     right: 0;
 }
-.menusocial img{
+.menusocial svg{
     position: relative;
     display: flex;
     justify-content: center;
@@ -135,7 +135,12 @@ header {
   text-decoration: none;
 }
 .callnow:hover{
-  transition: 0.2s ease-in-out;
+  background-color: #fff;
+  transition: 0.1s ease-in-out;
+}
+.menusocial ul li svg:hover circle, .footerimglogo ul li svg:hover circle{
+  fill: #fff;
+  transition: 0.1s ease-in-out;
 }
 .btn-toggle{display: none;}
 .logo-m{
