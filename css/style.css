@@ -1024,25 +1024,19 @@ line-height: 150%;
     padding: 32px 0 100px;
 }
 .callpopup{
-    background-color: #111;
-}
-.callpopup a{
-    color: #fff;
-}
-.callpopup{
-    border: 1px solid #fff;
-}
-.callpopup a svg path{
-    stroke: #fff;
-}
-.callpopup:hover{
     background-color: #FFDE2E;
 }
-.callpopup:hover a{
+.callpopup a{
     color: #000;
 }
-.callpopup a:hover svg path{
+.callpopup{
+    border: 1px solid #000;
+}
+.callpopup a svg path{
     stroke: #000;
+}
+.callpopup:hover{
+    background-color: #fff;
 }
 .popup .content h1{
     font-size: 56px;
