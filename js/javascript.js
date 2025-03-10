@@ -36,7 +36,7 @@ window.addEventListener("scroll", reveal);
 window.addEventListener("load", function(){
   setTimeout(
       function open(event){
-          document.querySelector(".popup").style.display = "flex";
+          document.querySelector(".popuphome").style.display = "flex";
       },
       1000
   )
@@ -44,5 +44,5 @@ window.addEventListener("load", function(){
 
 
 document.querySelector("#close").addEventListener("click", function(){
-  document.querySelector(".popup").style.display = "none";
+  document.querySelector(".popuphome").style.display = "none";
 });
