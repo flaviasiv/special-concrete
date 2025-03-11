@@ -145,6 +145,9 @@
                 <p>Slab Concrete</p>
                 <img src="./assets/swiper12.svg" alt="" draggable="false"></swiper-slide>
               <swiper-slide class="swiper">
+                <p>Stamped Concrete</p>
+                <img src="./assets/swiper11.svg" alt="" draggable="false"></swiper-slide>       
+              <swiper-slide class="swiper">
                 <p>Driveways Concrete</p>
                 <img src="./assets/swiper11.svg" alt="" draggable="false"></swiper-slide>
               <swiper-slide class="swiper">
@@ -167,7 +170,10 @@
                 <img src="./assets/swiper11.svg" alt="" draggable="false"></swiper-slide>
               <swiper-slide class="swiper">
                 <p>Slab Concrete</p>
-                <img src="./assets/swiper12.svg" alt="" draggable="false"></swiper-slide>         
+                <img src="./assets/swiper12.svg" alt="" draggable="false"></swiper-slide>       
+              <swiper-slide class="swiper">
+                <p>Stamped Concrete</p>
+                <img src="./assets/swiper11.svg" alt="" draggable="false"></swiper-slide>         
             </swiper-container>
         </div>
         <div class="servicescontainer" id="services">
@@ -511,16 +517,46 @@
                 <input type="email" required autocomplete="on" id="email" name="email" placeholder="Email address*" minlength="5" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
                 <input type="tel" required autocomplete="on" id="phone" name="phone" placeholder="Phone*" minlength="5">
                 </div>
+                  <label for="services">Choose a service:</label>
+                <div class="formgroup formgroupcheckbox">
+                  <div class="checkbox"><input type="checkbox" id="driveway" name="" value="" />
+                    <label for="driveway">Driveway Concrete</label></div>
+                  <div class="checkbox"><input type="checkbox" id="sidewalk" name="" value="" />
+                    <label for="sidewalk">Sidewalk Concrete</label></div>
+                  <div class="checkbox"><input type="checkbox" id="porch" name="" value="" />
+                    <label for="porch">Porch Concrete</label></div>
+                    <div class="checkbox"><input type="checkbox" id="Stamped" name="" value="" />
+                      <label for="Stamped">Stamped Concrete</label></div>
+                    <div class="checkbox"><input type="checkbox" id="ExposedAggregrate" name="" value="" />
+                      <label for="ExposedAggregrate">Exposed Aggregrate</label></div>
+                    <div class="checkbox"><input type="checkbox" id="Garage-Basement" name="" value="" />
+                      <label for="Garage-Basement">Garage/Basement Concrete</label></div>
+                    <div class="checkbox"><input type="checkbox" id="Patio" name="" value="" />
+                      <label for="Patio">Patio Concrete</label></div>
+                    <div class="checkbox"><input type="checkbox" id="Approach" name="" value="" />
+                      <label for="Approach">Approach Concrete</label></div>
+                    </div>
+                  <label for="howdidyouhearaboutus">How Did You Hear About Us?</label>
+                  <select name="howdidyouheardaboutus" id="howdidyouheardaboutus">
+                    <option value="NeighborYardSign">Neighbor Yard Sign</option>
+                    <option value="BBB">BBB</option>
+                    <option value="Thumbtack">Thumbtack</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Flyer">Flyer</option>
+                    <option value="Referral">Referral </option>
+                  </select>
                 <textarea name="message" id="message" cols="50" rows="10" placeholder="Type your message here..."></textarea>
                 <input type="hidden" name="_next" value="https://specialConcreteohio.com/">
                 <div class="g-recaptcha" data-sitekey="6LeORvEqAAAAAINV7IQ5JyMJqoQVBNL-l03tPrup"></div>
+                <input type="text" name="_gotcha" style="display:none;">
                 <button type="submit" class="btn btnyellow">Submit</button>
             </form>
         </div>
         </div>
         <div class="mapscontainer">
         <div class="mapsfooter">
-            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12209.650349527956!2d-82.96787392540442!3d40.08851314390577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838f33d644f7257%3A0xc3d92181148af622!2sSpecial%20Concrete%20Ohio!5e0!3m2!1spt-BR!2sbr!4v1714161493342!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97625.62584853923!2d-83.20969389191306!3d40.12444235194718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838eccf7c2780c5%3A0x9279e0be9142048a!2sDublin%2C%20OH%2043017%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1741717212688!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="mapinfo">
             <ul>
@@ -539,7 +575,7 @@
                 <h2><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 -4 24 25" fill="none">
                   <path d="M22 6.5C22 5.4 21.1 4.5 20 4.5H4C2.9 4.5 2 5.4 2 6.5V18.5C2 19.6 2.9 20.5 4 20.5H20C21.1 20.5 22 19.6 22 18.5V6.5ZM20 6.5L12 11.5L4 6.5H20ZM20 18.5H4V8.5L12 13.5L20 8.5V18.5Z" fill="#000"/>
                 </svg> Email</h2>
-                <p>contact@specialconcreteohio.com</p>
+                <p>specialconcreteohio@gmail.com</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="62" height="22" viewBox="0 0 62 6" fill="none">
                       <path d="M0 3C0 1.61929 1.11929 0.5 2.5 0.5H59.5C60.8807 0.5 62 1.61929 62 3C62 4.38071 60.8807 5.5 59.5 5.5H2.5C1.11929 5.5 0 4.38071 0 3Z" fill="#000"/>
                     </svg>    
@@ -595,6 +631,8 @@
               <li>
               <a href="#about">About us</a></li>
               <li>
+                <a href="#portfolio">Gallery</a></li>
+                <li>
               <a href="#contact">Get in Touch </a></li>
             </ul>
           </div>
@@ -606,7 +644,7 @@
               <li>Wednesday: 8AM to 7PM</li>
               <li>Thursday: 8AM to 7PM</li>
               <li>Friday: 8AM to 7PM</li>
-              <li>Saturday: Closed</li>
+              <li>Saturday: 8AM to 7PM</li>
               <li>Sunday: Closed</li>
           </ul>
         </div>
@@ -622,6 +660,20 @@
               <li><a href="./services/exposedaggregate.html">Exposed Aggregrate </a></li>
           </ul>
         </div>
+        <div class="address address2">
+          <h3>Follow us</h3> <br>
+            <ul>
+                <li>
+                  <a href="https://www.facebook.com/SpecialConcreteOhio/"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                  <path d="M22.6665 12.3033C22.6665 6.7467 18.1894 2.24219 12.6665 2.24219C7.14365 2.24219 2.6665 6.7467 2.6665 12.3033C2.6665 17.325 6.32334 21.4874 11.104 22.2422V15.2116H8.56494V12.3033H11.104V10.0867C11.104 7.56515 12.597 6.17231 14.8811 6.17231C15.9753 6.17231 17.1196 6.36882 17.1196 6.36882V8.8448H15.8587C14.6165 8.8448 14.229 9.62041 14.229 10.4161V12.3033H17.0024L16.5591 15.2116H14.229V22.2422C19.0097 21.4874 22.6665 17.3252 22.6665 12.3033Z" fill="#EEEEF0"/>
+                </svg> Facebook</a></li>
+                <li>
+                  <a href="https://www.instagram.com/specialconcreteohio/" target="_blank"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6665 3.24219H8.6665C5.90508 3.24219 3.6665 5.48077 3.6665 8.24219V16.2422C3.6665 19.0036 5.90508 21.2422 8.6665 21.2422H16.6665C19.4279 21.2422 21.6665 19.0036 21.6665 16.2422V8.24219C21.6665 5.48077 19.4279 3.24219 16.6665 3.24219ZM19.9165 16.2422C19.911 18.0348 18.4591 19.4867 16.6665 19.4922H8.6665C6.87385 19.4867 5.42199 18.0348 5.4165 16.2422V8.24219C5.42199 6.44954 6.87385 4.99768 8.6665 4.99219H16.6665C18.4591 4.99768 19.911 6.44954 19.9165 8.24219V16.2422ZM17.4165 8.49219C17.9688 8.49219 18.4165 8.04447 18.4165 7.49219C18.4165 6.93991 17.9688 6.49219 17.4165 6.49219C16.8642 6.49219 16.4165 6.93991 16.4165 7.49219C16.4165 8.04447 16.8642 8.49219 17.4165 8.49219ZM12.6665 7.74219C10.1812 7.74219 8.1665 9.75691 8.1665 12.2422C8.1665 14.7275 10.1812 16.7422 12.6665 16.7422C15.1518 16.7422 17.1665 14.7275 17.1665 12.2422C17.1692 11.0479 16.6959 9.90176 15.8514 9.05727C15.0069 8.21278 13.8608 7.73953 12.6665 7.74219ZM9.9165 12.2422C9.9165 13.761 11.1477 14.9922 12.6665 14.9922C14.1853 14.9922 15.4165 13.761 15.4165 12.2422C15.4165 10.7234 14.1853 9.49219 12.6665 9.49219C11.1477 9.49219 9.9165 10.7234 9.9165 12.2422Z" fill="#EEEEF0"/>
+                  </svg>
+                  Instagram</a></li>
+            </ul>
+        </div>
         </div>
       </div>
       <div class="rights">
@@ -633,7 +685,7 @@
         </ul>
       </div>
     </footer>
-    <div class="popuphome">
+    <!-- <div class="popuphome">
       <button class="close" id="close">&times;</button>
       <div class="formp">
           <h2>Get in Touch</h2>
@@ -650,10 +702,11 @@
           </div>
           <textarea name="message" id="message" cols="50" rows="10" placeholder="Type your message here..."></textarea>
           <input type="hidden" name="_next" value="https://specialConcreteohio.com/">
+          <input type="text" name="_gotcha" style="display:none;">
           <div class="g-recaptcha" data-sitekey="6LeORvEqAAAAAINV7IQ5JyMJqoQVBNL-l03tPrup"></div>
           <button type="submit" class="btn btnyellow">Submit</button>
       </form>
-    </div>
+    </div> -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/javascript.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
@@ -668,7 +721,7 @@
     "telephone": [
       "(614) 339-9264"
     ],
-    "email": "contact@specialconcreteohio.com",
+    "email": "specialconcreteohio@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "#####",

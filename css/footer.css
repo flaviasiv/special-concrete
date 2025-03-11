@@ -68,8 +68,9 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
+    cursor: pointer;
 }
-.footernav ul li a:hover {
+.footernav a:hover {
     color: #FFDE2E;
     transition: 0.1s;
 }
@@ -87,24 +88,38 @@ footer{
     line-height: 120%;
     margin-bottom: 8px;
 }
+.address ul li a{
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 5px;
+}
+.address2{
+    height: 90px;
+}
 .rights{
     position: relative;
-    height: 120px;
     width: 100%;
-    max-width: 9990px;
     margin: auto;
-    padding: 0 0 50px 0;
+    padding: 50px;
     background-color: #000000;
     align-items: center;
     text-align: center;    
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
 }
 .rights p{
     color: #fff;
-    border-top: 1px solid #fff;
     font-size: 14.4px;
     font-weight: 400;
     line-height: 150%;
-    padding-top: 50px;
+}
+.rights ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
 }
 .footerimglogo2{display:none;}
 @media screen and (max-width: 870px) {

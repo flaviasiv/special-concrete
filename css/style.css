@@ -799,7 +799,7 @@ swiper-container {
     line-height: 130%;
 }
 .formp p{
-    color: #fff;
+    color: #FFDE2E;
     font-size: 16px;
     font-weight: 300;
     line-height: 150%;
@@ -819,7 +819,7 @@ form {
     width:750px;
     max-width: 100%;
     margin: auto;
-    height: 399px;
+    height: 620px;
     background-color: #FFF;
     border-radius: 8px;
     padding: 16px;
@@ -829,7 +829,7 @@ form {
     display: flex;
     gap: 10px;
 }
-#form input, textarea{
+#form input, textarea, select{
     width: 100%;
     list-style: none;
     padding: 20px;
@@ -839,6 +839,9 @@ form {
 }
 #form input{
     height:  46px;    
+}
+select{
+    padding: 10px;
 }
 form button{
     margin-top: 15px;
@@ -857,6 +860,19 @@ form button:hover{
 }
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;     /* oranges! yey */
+}
+.formgroupcheckbox{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+    max-width: 170px;
+}
+.checkbox input{
+    max-width: 15px;
 }
 @media screen and (max-width:980px) {
     .formp h2{
