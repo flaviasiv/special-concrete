@@ -722,7 +722,7 @@ swiper-container {
     max-width: 9999px;
     margin: auto;
     justify-content: center;
-    padding: 183px 50px 114px;
+    padding: 0 50px 114px;
 }
 .preference{
     width: 100%;
@@ -819,7 +819,7 @@ form {
     width:750px;
     max-width: 100%;
     margin: auto;
-    height: 299px;
+    height: 399px;
     background-color: #FFF;
     border-radius: 8px;
     padding: 16px;
