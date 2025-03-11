@@ -59,7 +59,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 175px;
+    height: 200px;
 }
 .footernav ul li a {
     text-decoration: none;
@@ -70,8 +70,13 @@ footer{
     line-height: 130%;
     cursor: pointer;
 }
-.footernav a:hover {
+.footernav a:hover, .address ul li a:hover, .rights a:hover {
+    cursor: pointer;
     color: #FFDE2E;
+    transition: 0.1s;
+}
+.address ul li a:hover svg path{
+    fill: #FFDE2E;
     transition: 0.1s;
 }
 .address{
@@ -95,14 +100,18 @@ footer{
     align-items: center;
     gap: 5px;
 }
-.address2{
-    height: 90px;
+.address2 ul{
+    height: 70px;
+    padding-top: 10px;
+}
+.address2 h3{
+    font-size: 12px;
 }
 .rights{
     position: relative;
     width: 100%;
     margin: auto;
-    padding: 50px;
+    padding: 30px 50px;
     background-color: #000000;
     align-items: center;
     text-align: center;    
@@ -150,9 +159,21 @@ footer{
     .address {
         margin-top: 36px;
     }
+    .address ul li a{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
     .address ul li{
         display: block;
         text-align: center;
+    }
+    .rights{
+        flex-direction: column;
+    }
+    .rights ul{
+        flex-direction: column;
+        padding-top: 20px;
     }
     .rights p{
         font-size: 12px;

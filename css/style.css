@@ -456,6 +456,45 @@ swiper-container {
     font-weight: 600;
     line-height: 150%;
 }
+.gallerygrid{
+    padding: 40px 0 0;
+    margin: auto;
+}
+.mySwiper3 {
+  width: 100%;
+  height:460px;
+  max-width: 100%;
+  cursor: grab;
+  margin: 0 auto !important;
+}
+.swiper3 {
+  width: 100%;
+  max-width: 520px;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.swiper3 img {
+  width: 100% !important;
+  max-width: 518px;
+  height: 430px;
+  border-radius: 24px;
+  margin: auto;
+  object-fit: cover !important;
+}
+@media screen and (max-width:900px) {  
+    .mySwiper3 {
+      height:290px;
+    }
+    .swiper3{
+      max-width: 340px;
+    }
+    .swiper3 img {
+      max-width: 340px;
+      height: 290px;
+    }
+}
+
 /* 
     POPUP GALERIA !!!
  */
@@ -515,7 +554,10 @@ swiper-container {
 }
 @media screen and (max-width:900px) {
     .gallerycontainer{
-        padding: 80px 20px 40px 20px;
+        padding: 80px 0 40px 0;
+    }
+    .gallerycontainer .preference{
+        padding: 0 20px;
     }
     .galleryinfos h2{
         font-size: 20px;
@@ -684,27 +726,8 @@ swiper-container {
     .reviewp small{
         font-size: 14px;
     }
-    .swiper3{
-        gap: 12px;
-        width: 350px;
-    }
-    .swiper3 img{
-        max-width: 350px;
-    }
 }
 @media screen and (max-width:680px) {
-    .swiper3{
-        gap: 12px;
-        width: 100%;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .mySwiper3{
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        padding: 0 7vw;
-    }
     .reviewp{
         max-width: 400px;
     }
@@ -810,7 +833,6 @@ swiper-container {
     margin: auto;
     margin-bottom: 30px;
 }
-
 form {
     list-style: none;
     display: flex;
@@ -824,6 +846,10 @@ form {
     border-radius: 8px;
     padding: 16px;
     margin-top: 30px;
+}
+.popuphome form{
+    height: 440px;
+    margin-top: 20px;
 }
 .formgroup{
     display: flex;
@@ -883,6 +909,21 @@ form button:hover{
     }
     .formgrid{
     padding: 130px 20px;
+    }
+    .formgroupcheckbox{
+        gap: 0;
+        column-gap: 10px;
+    }
+    .checkbox{
+        gap: 10px;
+        width: 100px;
+        align-items: center;
+    }
+    .checkbox input{
+        max-width: 15px;
+    }
+    .checkbox label{
+        font-size: 11px;
     }
 }
 .mapscontainer{
