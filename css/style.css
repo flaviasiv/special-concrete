@@ -1193,6 +1193,21 @@ line-height: 150%;
     .popup #form{
         padding: 0;
     }
+    .popuphome{
+        padding: 10px;
+    }
+    .popuphome form{
+        height: 280px;
+        margin-top:0px;
+    }
+    .popuphome #form input{
+        height:  26px;    
+        padding: 10px;
+    }
+    .popuphome .close{
+        margin: auto;
+        margin-right: 10px;
+    }
 }
 a{
     text-decoration: none;
