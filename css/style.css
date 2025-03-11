@@ -155,6 +155,7 @@ swiper-container {
     max-width: 9999px;
     margin: auto;
     height: 100%;
+    z-index: 9;
 }
 .mySwiper1{
     display: block;
