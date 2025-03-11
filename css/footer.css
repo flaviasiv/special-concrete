@@ -162,7 +162,8 @@ footer{
     .address ul li a{
         display: flex;
         align-items: center;
-        text-align: center;
+        justify-content: center;
+        text-align: center !important;
     }
     .address ul li{
         display: block;
