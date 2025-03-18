@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Special Concrete Ohio - we make your wish come true quickly, with quality, and at a low cost</title>
     <link rel="icon" type="image/x-icon" href="./assets/icon.png">
@@ -191,8 +191,8 @@
                 <p>Looking for high-quality concrete services? Look no further! Our team is here to help you achieve your concrete goals. We take pride in serving various areas including Columbus, Delaware, Sunbury, Galena, Kilbourne, Jerome, Lewis Center, Shawnee Hills, Powell, Radnor, Ashley, Dublin, Bexley, Marysville, Ostrander, New Albany, Johnstown, Centerburg, Grandview, Gahanna, Worthington, Westerville, Upper Arlington, Hilliard, Plain City, Reynoldsburg, Pickerington, Canal Winchester, Lithopolis, Urbancrest, Grove City, Groveport, Blacklick, Etna, Pataskala, Clintonville, Galloway, Obetz, Whitehall, Lockbourne, West Jefferson, and all or parts of Franklin County and Delaware County. Don't settle for less, choose us for all your concrete needs!</p>
             </div>
             <div class="servicesswiper">               
-              <swiper-container class="mySwiper2 reveal" pagination="true" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000" centered-slides="true" >
-                <swiper-slide class="swiper2 cardblack" data-aos="fade-up">
+              <swiper-container class="mySwiper2 reveal" data-aos="fade-up" pagination="true" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000" centered-slides="true" >
+                <swiper-slide class="swiper2 cardblack">
                   <div class="servicescard">
                     <div class="sercardinfo">
                       <h3>Driveway <br>Concrete</h3>
@@ -300,12 +300,12 @@
             </div>
         </div>
         <div class="reviewcontainer" id="reviews">
-            <div class="reviewp">
+            <div class="reviewp" data-aos="fade-up">
                 <h2>Reviews</h2>
                 <h6>What our clients think about Special Concrete</h6><img src="./assets/Vector.png" alt="" draggable="false">
                 <small>See other customers recommending Special Concrete</small>
             </div>
-            <div class="reviewgrid">
+            <div class="reviewgrid" data-aos="fade-up">
               <!-- Elfsight Google Reviews | Special Concrete Google Reviews -->
               <script src="https://static.elfsight.com/platform/platform.js" async></script>
               <div class="elfsight-app-09518cb0-ce24-4c04-96b8-fe11ba37a5fa" data-elfsight-app-lazy></div>
@@ -319,15 +319,14 @@
                 </a>
             </div>
         </div>
-        
         <div class="gallerycontainer container" id="portfolio">
-          <div class="preference">
+          <div class="preference" data-aos="fade-up">
               <h2>Gallery</h2> <br>
               <h3 style="color: #000;">Elevate Your Outdoors with Stunning Concrete</h3>
                 <br><p>Transform your outdoor spaces with our expert concrete solutions. From beautifully stamped patios to durable driveways and sidewalks, our team creates custom concrete designs that add both function and style to your space.</p>
           </div>
             <div class="gallerygrid">
-              <swiper-container class="mySwiper3 reveal" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="4000" centered-slides="true">
+              <swiper-container class="mySwiper3 reveal" data-aos="fade-up" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="4000" centered-slides="true">
                 <swiper-slide class="swiper3">
                   <div class="">
                     <img src="./assets/gallery1.webp" alt="">
@@ -527,10 +526,10 @@
         
         <div class="aboutcontainer" id="aboutus">
             <div class="about">
-                <div class="aboutimg">
+                <div class="aboutimg" data-aos="fade-up">
                     <img src="./assets/special-logoprimary.png" alt="">
                 </div>
-                <div class="aboutinfos">
+                <div class="aboutinfos" data-aos="fade-up">
                     <h2>About us</h2>
                     <h6>We have the know-how you need.</h6>
                     <p>
@@ -547,15 +546,15 @@
             </div>
             <div class="aboutprinc">
             <div class="aboutgrid">
-              <div class="preferencecard reveal" id="preferencecard1">
+              <div class="preferencecard reveal" id="preferencecard1" data-aos="fade-up">
                 <img src="./assets/preference1.png" alt="" draggable="false">
                 <h5>Trustworthy <br>service.</h5>
               </div>
-              <div class="preferencecard reveal" id="preferencecard2">
+              <div class="preferencecard reveal" id="preferencecard2" data-aos="fade-up">
                 <img src="./assets/preference2.png" alt="" draggable="false">
                 <h5>Motivated by commitment <br>and responsibility.</h5>
               </div>
-              <div class="preferencecard reveal" id="preferencecard3">
+              <div class="preferencecard reveal" id="preferencecard3" data-aos="fade-up">
                 <img src="./assets/preference3.png" alt="" draggable="false">
                 <h5>Experienced and full <br>of energy team.</h5>
               </div>
@@ -571,7 +570,7 @@
             </div>
         </div>
         <div class="preferencecontainer">
-            <div class="preference">
+            <div class="preference" data-aos="fade-up">
                 <h2>Reasons to hire us</h2>
                 <h3>Trusted by over 10.000+ clients.</h3>
                 <br><p>Each project is executed efficiently and with full dedication. Especially when it comes to a place where people will pass daily.
@@ -581,7 +580,7 @@
                 </span>
                 </p>
             </div>
-                <img src="./assets/preferenceimg.png" alt="" draggable="false">
+                <img src="./assets/preferenceimg.png" alt="" draggable="false" data-aos="zoom-in">
         </div>
         <div class="formgrid">
           <div class="form" id="contact">
@@ -599,8 +598,17 @@
                 <input type="email" required autocomplete="on" id="email" name="email" placeholder="Email address*" minlength="5" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
                 <input type="tel" required autocomplete="on" id="phone" name="phone" placeholder="Phone*" minlength="5">
                 </div>
-                  <label for="services">Choose a service:</label>
-                <div class="formgroup formgroupcheckbox">
+                  <label for="services">Choose a service:
+                    <select name="howdidyouheardaboutus" id="howdidyouheardaboutus">
+                      <option value="driveway">Driveway Concrete</option>
+                      <option value="sidewalk">Sidewalk Concrete</option>
+                      <option value="porch">Porch Concrete</option>
+                      <option value="Stamped">Stamped Concrete</option>
+                      <option value="ExposedAggregrate">Exposed Aggregrate</option>
+                      <option value="Garage-Basement">Garage/Basement Concrete</option>
+                    </select>
+                  </label>
+                <!-- <div class="formgroup formgroupcheckbox">
                   <div class="checkbox"><input type="checkbox" id="driveway" name="" value="" />
                     <label for="driveway">Driveway Concrete</label></div>
                   <div class="checkbox"><input type="checkbox" id="sidewalk" name="" value="" />
@@ -617,8 +625,8 @@
                       <label for="Patio">Patio Concrete</label></div>
                     <div class="checkbox"><input type="checkbox" id="Approach" name="" value="" />
                       <label for="Approach">Approach Concrete</label></div>
-                    </div>
-                  <label for="howdidyouhearaboutus">How Did You Hear About Us?</label>
+                    </div> -->
+                  <label for="howdidyouhearaboutus">How Did You Hear About Us?
                   <select name="howdidyouheardaboutus" id="howdidyouheardaboutus">
                     <option value="NeighborYardSign">Neighbor Yard Sign</option>
                     <option value="BBB">BBB</option>
@@ -627,7 +635,7 @@
                     <option value="Instagram">Instagram</option>
                     <option value="Flyer">Flyer</option>
                     <option value="Referral">Referral </option>
-                  </select>
+                  </select></label>
                 <textarea name="message" id="message" cols="50" rows="10" placeholder="Type your message here..."></textarea>
                 <input type="hidden" name="_next" value="https://specialConcreteohio.com/">
                 <div class="g-recaptcha" data-sitekey="6LeORvEqAAAAAINV7IQ5JyMJqoQVBNL-l03tPrup"></div>
@@ -794,7 +802,7 @@
     <script async src="./js/javascript.js"></script>
     <script defer src="./js/swiper-bundle.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <script async src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script async>
       AOS.init();
     </script>

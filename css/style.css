@@ -913,7 +913,7 @@ form button:hover{
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;     /* oranges! yey */
 }
-.formgroupcheckbox{
+/* .formgroupcheckbox{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -925,6 +925,18 @@ form button:hover{
 }
 .checkbox input{
     max-width: 15px;
+} */
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #333333;
+}
+select option{
+    color: #111111;
+}
+select{
+    color: #969696;
 }
 @media screen and (max-width:980px) {
     .formp h2{
