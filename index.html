@@ -191,7 +191,7 @@
                 <p>Looking for high-quality concrete services? Look no further! Our team is here to help you achieve your concrete goals. We take pride in serving various areas including Columbus, Delaware, Sunbury, Galena, Kilbourne, Jerome, Lewis Center, Shawnee Hills, Powell, Radnor, Ashley, Dublin, Bexley, Marysville, Ostrander, New Albany, Johnstown, Centerburg, Grandview, Gahanna, Worthington, Westerville, Upper Arlington, Hilliard, Plain City, Reynoldsburg, Pickerington, Canal Winchester, Lithopolis, Urbancrest, Grove City, Groveport, Blacklick, Etna, Pataskala, Clintonville, Galloway, Obetz, Whitehall, Lockbourne, West Jefferson, and all or parts of Franklin County and Delaware County. Don't settle for less, choose us for all your concrete needs!</p>
             </div>
             <div class="servicesswiper">               
-              <swiper-container class="mySwiper2 reveal" data-aos="fade-up" pagination="true" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000" centered-slides="true" >
+              <swiper-container class="mySwiper2" data-aos="fade-up" pagination="true" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000" centered-slides="true" >
                 <swiper-slide class="swiper2 cardblack">
                   <div class="servicescard">
                     <div class="sercardinfo">
@@ -326,7 +326,7 @@
                 <br><p>Transform your outdoor spaces with our expert concrete solutions. From beautifully stamped patios to durable driveways and sidewalks, our team creates custom concrete designs that add both function and style to your space.</p>
           </div>
             <div class="gallerygrid">
-              <swiper-container class="mySwiper3 reveal" data-aos="fade-up" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="4000" centered-slides="true">
+              <swiper-container class="mySwiper3" data-aos="fade-up" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="4000" centered-slides="true">
                 <swiper-slide class="swiper3">
                   <div class="">
                     <img src="./assets/gallery1.webp" alt="">
@@ -546,15 +546,15 @@
             </div>
             <div class="aboutprinc">
             <div class="aboutgrid">
-              <div class="preferencecard reveal" id="preferencecard1" data-aos="fade-up">
+              <div class="preferencecard" id="preferencecard1" data-aos="fade-up">
                 <img src="./assets/preference1.png" alt="" draggable="false">
                 <h5>Trustworthy <br>service.</h5>
               </div>
-              <div class="preferencecard reveal" id="preferencecard2" data-aos="fade-up">
+              <div class="preferencecard" id="preferencecard2" data-aos="fade-up">
                 <img src="./assets/preference2.png" alt="" draggable="false">
                 <h5>Motivated by commitment <br>and responsibility.</h5>
               </div>
-              <div class="preferencecard reveal" id="preferencecard3" data-aos="fade-up">
+              <div class="preferencecard" id="preferencecard3" data-aos="fade-up">
                 <img src="./assets/preference3.png" alt="" draggable="false">
                 <h5>Experienced and full <br>of energy team.</h5>
               </div>
@@ -799,9 +799,12 @@
       </form>
     </div>
     <script async src="./js/javascript.js"></script>
-    <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script async>
-      AOS.init();
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Inicialize a AOS após o carregamento do DOM
+      document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+      });
     </script>
     <script defer src="./js/jquery.min.js"></script>
     <script defer src="./js/swiper-bundle.min.js"></script>
@@ -819,7 +822,7 @@
     "email": "specialconcreteohio@gmail.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "#####",
+      "streetAddress": "",
       "addressLocality": "Dublin",
       "addressRegion": "OH",
       "addressCountry": "USA",
