@@ -174,9 +174,10 @@ footer{
     }
     .rights ul{
         flex-direction: column;
-        padding-top: 20px;
+        padding-top: 10px;
+        gap: 5px;
     }
-    .rights p{
+    .rights p, .rights a{
         font-size: 12px;
     }
 }
