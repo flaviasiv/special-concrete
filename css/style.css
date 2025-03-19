@@ -314,6 +314,9 @@ swiper-container {
     background-color: #FFC824;
 }
 @media screen and (max-width:1000px) {
+    .servicescontainer{
+        padding-bottom: 30px;
+    }
     .servicesinfo{
         padding: 0 20px;
     }
@@ -330,7 +333,7 @@ swiper-container {
       height: 580px;
     }
     .swiper2 {
-      max-width: 900px;
+      max-width: 90vw;
       margin-left: 0;
       margin-top: 50px;
     }
@@ -512,10 +515,10 @@ swiper-container {
       height:290px;
     }
     .swiper3{
-      max-width: 340px;
+      max-width: 390px;
     }
     .swiper3 img {
-      max-width: 340px;
+      max-width: 390px;
       height: 290px;
     }
 }
@@ -632,7 +635,7 @@ swiper-container {
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 330px;
+        height: 420px;
     }    
 }
 .reviewcontainer{
@@ -804,7 +807,7 @@ swiper-container {
 }
 @media screen and (max-width:980px) {
     .preferencecontainer{
-        padding: 183px 20px 114px;
+        padding: 0 20px 54px;
     }
     .preference h2{
         font-size: 22px;
@@ -1016,7 +1019,7 @@ line-height: 150%;
 }
 @media screen and (max-width:800px) {
     .mapscontainer{
-        padding: 48px 20px 86px;
+        padding: 48px 20px;
     }
     .mapsfooter{
         flex-direction: column;
