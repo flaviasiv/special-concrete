@@ -38,7 +38,7 @@ window.addEventListener("load", function(){
       function open(event){
           document.querySelector(".popuphome").style.display = "flex";
       },
-      2000
+      1000
   )
 });
 
