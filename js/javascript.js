@@ -30,7 +30,7 @@ document.onclick = function(e){
 //   }
 // }
 
-window.addEventListener("scroll", reveal);
+// window.addEventListener("scroll", reveal);
 
 // popup
 window.addEventListener("load", function(){
