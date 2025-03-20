@@ -632,10 +632,13 @@ swiper-container {
     }    
 }
 @media screen and (max-width:580px) {
+    .ig-embed{
+        padding-bottom: 30px;
+    }
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 420px;
+        height: 480px;
     }    
 }
 .reviewcontainer{
