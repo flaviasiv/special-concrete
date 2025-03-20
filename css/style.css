@@ -333,7 +333,7 @@ swiper-container {
       height: 580px;
     }
     .swiper2 {
-      max-width: 90vw;
+      max-width: 80vw;
       margin-left: 0;
       margin-top: 50px;
     }
@@ -756,13 +756,18 @@ swiper-container {
     }
 }
 @media screen and (max-width:680px) {
+    .reviewcontainer{
+        overflow: hidden;
+    }
     .reviewp{
-        max-width: 400px;
+        position: relative;
+        max-width: 300px;
+        padding: 0 0 60px 0;
     }
     .reviewp img{
         width: 249px;
         top: 67px;
-        left: 115px;
+        left: 65px;
     }
 }
 .preferencecontainer{
@@ -1214,6 +1219,13 @@ line-height: 150%;
         padding: 20px;
     }
     .popup #form{
+        padding: 0;
+    }
+    .popupcontent{
+        max-width: 95%;
+        padding: 20px;
+    }
+    .popupcontent form{
         padding: 0;
     }
     .popuphome{
