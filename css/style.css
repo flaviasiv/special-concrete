@@ -1065,17 +1065,21 @@ select{
     line-height: 130%;
     font-weight: 700;
 }
-.partnersgrid{align-items: center; flex-wrap: wrap;}
-.partnersinfos .partnerslogo{
+.partnersgrid{align-items: center; flex-wrap: wrap;max-width: 450px;}
+.partnersinfos .partnerlogo{
     object-fit: cover;
     height: 100%;
 }
+.ernstlogo{
+    max-width: 70px;
+}
 @media screen and (max-width:800px) {
     .mapscontainer{
-        padding: 48px 20px;
+        padding: 48px 0;
     }
     .mapsfooter{
         flex-direction: column;
+        padding: 0 20px;
     }
     .mapscontainer iframe{
         display: block;
@@ -1095,9 +1099,10 @@ select{
     font-size: 14px;
     }
     .partnersgrid{
-        gap: 16px;
+        gap: 5px;
         justify-content: center;
     }
+    .decologo{max-width: 150px;}
 }
 .popuptest{
     position: relative;
